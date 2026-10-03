@@ -1,0 +1,8 @@
+{
+  "name": "Remix CampusPulse - Student Community \u0026 Junior Onboarding Hub",
+  "description": "Professional campus community platform for juniors to discover committees, workshops, events, connect with mentors, and explore careers with an AI advisor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

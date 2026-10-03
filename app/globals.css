@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  * {
+    scroll-behavior: smooth;
+  }
+
+  html.dark,
+  body.dark {
+    background-color: #070709 !important;
+    color: #f1f5f9;
+  }
+}
+
+/* Custom dark mode background helper classes */
+.bg-campus-dark {
+  background-color: #070709;
+}
+
+.bg-campus-card-dark {
+  background-color: #0d0e14;
+}
+
+.bg-campus-elevated-dark {
+  background-color: #13141c;
+}
+
+.border-campus-dark {
+  border-color: #1d1f2b;
+}
